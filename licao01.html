@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="br">
+	<title>Manipulando DOM</title>
+</head>
+<body>
+	<div id="app">
+		<button onclick="mostraAlerta()">Click aqui</button>
+		<br/>
+		<button onmouseover="mostraAlerta()">Passe o mouse aqui</button>
+		<br/>
+		<input onkeypress="mostraAlerta()"/>
+	</div>
+	<script>
+			function mostraAlerta(){
+				alert('Botão foi clicado')
+			}
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<hmtl>
+  <head>
+    <meta charset="utf-8" lang="pt-br"/>
+    <title>Exercício 05</title>
+    <script>
+      function showSkills(array){
+        let users = array;
+        for(let index of users){
+          console.log("O " + index.nome + " possui as habilidades: " + index.habilidades.join());
+        }
+      }
+
+      var usuarios = [
+          {
+            nome: "Diego",
+            habilidades: ["Javascript", "ReactJS", "Redux"]
+          },
+          {
+            nome: "Gabriel",
+            habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+          }
+      ];
+      
+      showSkills(usuarios);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
